@@ -1,0 +1,2 @@
+;; Analyzed by ClojureScript 1.7.170
+{:use-macros nil, :excludes #{}, :name mimas.handlers, :imports nil, :requires {mimas.db mimas.db, re-frame.core re-frame.core}, :uses {state mimas.db, register-handler re-frame.core}, :require-macros nil, :cljs.analyzer/constants {:seen #{:initialize}, :order [:initialize]}, :doc nil}

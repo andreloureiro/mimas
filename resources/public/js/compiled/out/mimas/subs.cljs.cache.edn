@@ -1,0 +1,2 @@
+;; Analyzed by ClojureScript 1.7.170
+{:use-macros {reaction reagent.ratom}, :excludes #{}, :name mimas.subs, :imports nil, :requires {re-frame.core re-frame.core, mimas.db mimas.db}, :uses {register-sub re-frame.core, state mimas.db}, :require-macros {reagent.ratom reagent.ratom}, :cljs.analyzer/constants {:seen #{:task/list :dropdown/list :app/title :task/form}, :order [:app/title :dropdown/list :task/list :task/form]}, :doc nil}
