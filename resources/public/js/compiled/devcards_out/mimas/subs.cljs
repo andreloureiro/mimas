@@ -23,3 +23,9 @@
 (register-sub
  :task/form
  simple-sub)
+
+
+(register-sub
+ :get-db
+ (fn [db _]
+   @db))

@@ -1,6 +1,6 @@
 (ns mimas.core
   (:require [reagent.core :as r]
-            [re-frame.core :refer [subscribe dispatch-sync]]
+            [re-frame.core :refer [subscribe dispatch-sync dispatch]]
             [goog.dom :as gdom]
             [mimas.handlers]
             [mimas.subs]
@@ -9,6 +9,11 @@
 
 (defn title [t]
   [:div.title [:h1.title__text t]])
+
+
+(defn select-dd-item [local item]
+  (swap! local assoc :active item :open? false)
+  (dispatch [:form/update-value :form/project item]))
 
 (defn dropdown [item-list]
   (let [local (r/atom {:open? false :active nil})]
@@ -19,12 +24,14 @@
            [:div.dropdown__active {:on-click #(swap! local assoc :open? true)} (or (:item/label active) "none")]
            [:div.dropdown__list
             (for [{:keys [item/id item/label] :as item} item-list]
-              [:div.list__item {:key id :on-click #(swap! local assoc :active item :open? false)} label])])]))))
+              [:div.list__item {:key id :on-click #(select-dd-item local item)} label])])]))))
+
+
 
 (defn task-form [data item-list]
   [:div.create-task-panel
    [:div.create-task-panel__input-container
-    [:input.input-container__input {:type "text"}]]
+    [:input.input-container__input {:type "text" :on-change #(dispatch [:form/update-value :form/title (.. % -target -value)])}]]
    [:div.create-task-panel__dropdown-container
     [dropdown item-list]]
    [:div.create-task-panel__submit-container
