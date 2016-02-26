@@ -12,9 +12,6 @@
  :app/title
  simple-sub)
 
-(register-sub
- :dropdown/list
- simple-sub)
 
 (register-sub
  :task/list
@@ -23,6 +20,26 @@
 (register-sub
  :task/form
  simple-sub)
+
+
+(defn project-list [db]
+  (let [{:keys [task/list]} @db]
+    (reaction
+     (group-by :task/project list))))
+
+(register-sub
+ :project/list
+ project-list)
+
+
+(defn dropdown-list [db]
+  (let [{:keys [task/list]} @db]
+    (reaction
+     (keys (group-by :task/project list)))))
+
+(register-sub
+ :dropdown/list
+ dropdown-list)
 
 
 (register-sub

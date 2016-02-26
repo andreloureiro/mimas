@@ -4,7 +4,7 @@
   (:require [reagent.core :as r]
             [re-frame.core :refer [subscribe dispatch-sync dispatch]]
             [mimas.db :refer [state State]]
-            [mimas.core :refer [dropdown title task-form]]
+            [mimas.core :refer [dropdown title task-form task-item task-list project-item project-list]]
             [mimas.subs :as subs]
             [mimas.handlers :as h]
             [schema.core :as s]
@@ -35,8 +35,8 @@
     (is (= @(subscribe [:app/title]) (get state :app/title)) "Assert subscription path")
     (is (= (type @(subscribe [:app/title])) js/String) "Title is a string")
 
-    (is (= @(subscribe [:dropdown/list]) (get state :dropdown/list)) "Assert subscription path")
-    (is (= (type @(subscribe [:dropdown/list])) PersistentVector) "Dropdown list is a Vector")
+    (is (= @(subscribe [:dropdown/list]) (keys (group-by :task/project (get state :task/list)))) "Assert subscription path")
+    (is (= (type @(subscribe [:dropdown/list])) KeySeq) "Dropdown list is a Vector")
 
     (is (= @(subscribe [:task/list]) (get state :task/list)) "Assert subscription path")
     (is (= (type @(subscribe [:task/list])) PersistentVector) "Task list is a Vector")
@@ -54,7 +54,7 @@
     :form/project ""}
    :task/editing nil})
 
-(def task-mock {:task/id 0 :task/title "task" :task/project "project"})
+(def task-mock {:task/id 0 :task/title "task" :task/project "project" :task/done? false})
 
 (defcard subscription-header
   (str "## Handlers ")
@@ -82,9 +82,19 @@
 
   (testing "remove task"
     (let [new-task-list (update state-mock :task/list conj task-mock)]
-      (is (= state-mock (h/task-remove new-task-list [nil (:task/id task-mock)]))))))
+      (is (= state-mock (h/task-remove new-task-list [nil (:task/id task-mock)])))))
+
+  (testing "finish task"
+    (let [state-before-task-finish (update state-mock :task/list conj task-mock)
+          state-after-task-finish (update state-mock :task/list conj (assoc task-mock :task/done? true))]
+      (is (= state-after-task-finish (h/toggle-done state-before-task-finish [nil task-mock]))))))
 
 
+
+(defcard components-header
+  (str "## Components")
+  {}
+  {:heading false})
 
 ;; --- Title ---
 
@@ -124,3 +134,53 @@
     [task-form @data @dropdown-list])
   form-data
   {:inspect-data true})
+
+
+;; --- Task Item ---
+
+(defcard-rg task-item
+  (fn [data _]
+    [task-item @data])
+  (first @(subscribe [:task/list]))
+  {:inspect-data true})
+
+(defcard-rg task-item-done
+  (fn [data _]
+    [task-item @data])
+  (second @(subscribe [:task/list]))
+  {:inspect-data true})
+
+(defcard-rg task-item-without-project
+  (fn [data _]
+    [task-item @data])
+  (dissoc (first @(subscribe [:task/list])) :task/project)
+  {:inspect-data true})
+
+
+;; --- Task List ---
+
+(defcard-rg task-list
+  (fn [data _]
+    [task-list @data])
+  @(subscribe [:task/list]))
+
+(defcard-rg empty-task-list
+  (fn [data _]
+    [task-list @data])
+  [])
+
+
+;; --- Project item ---
+
+;; (defcard-rg project-item
+;;   (fn [data _]
+;;     (let [project (first @data)
+;;           tasks (second @data)]
+;;       (println @data)
+;;       [project-item project tasks]))
+;;   (first (subscribe [:project/list])))
+
+(defcard-rg project-list
+  (fn [data _]
+    [project-list @data])
+  (subscribe [:project/list]))

@@ -5,12 +5,14 @@
 (s/defschema Task
   {:task/id s/Num
    :task/title s/Str
-   :task/project s/Str})
+   :task/project s/Str
+   :task/done? s/Bool})
 
-(s/defschema DropdownItem
-  {:item/id s/Num
-   :item/value s/Keyword
-   :item/label s/Str})
+(s/defschema Project
+  {:project/id s/Num
+   :project/title s/Str})
+
+(s/def DropdownItem s/Str)
 
 (s/defschema TaskForm
   {:form/title s/Str
@@ -21,22 +23,21 @@
    :dropdown/list [DropdownItem]
    :task/list [Task]
    :task/form TaskForm
-   :task/editing (s/maybe Task)})
+   :task/editing (s/maybe Task)
+   :project/list {s/Str Project}})
 
 (def state
   {:app/title "mimas"
-   :dropdown/list
-   [{:item/id 0 :item/value :item-1 :item/label "item#1"}
-    {:item/id 1 :item/value :item-2 :item/label "item#2"}
-    {:item/id 2 :item/value :item-3 :item/label "item#3"}]
+   :dropdown/list []
    :task/list
-   [{:task/id (rand-int 100) :task/title "task#1" :task/project "project#1"}
-    {:task/id (rand-int 100) :task/title "task#2" :task/project "project#2"}
-    {:task/id (rand-int 100) :task/title "task#3" :task/project "project#1"}]
+   [{:task/id (rand-int 100) :task/title "task#1" :task/project "project#1" :task/done? false}
+    {:task/id (rand-int 100) :task/title "task#2" :task/project "project#2" :task/done? true}
+    {:task/id (rand-int 100) :task/title "task#3" :task/project "project#1" :task/done? false}]
    :task/form
    {:form/title ""
     :form/project ""}
-   :task/editing nil})
+   :task/editing nil
+   :project/list {}})
 
 (defn valid? [db]
   (s/validate State db))

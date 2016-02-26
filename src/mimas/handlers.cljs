@@ -17,8 +17,20 @@
  form-update-value)
 
 
-(defn task-add [db [_ task]]
-  (update db :task/list conj task))
+
+(defn create-new-task [title project]
+  {:task/id (rand-int 100) ;; TODO: implements UUID
+   :task/title title
+   :task/project project
+   :task/done? false})
+
+(def clean-form {:form/title "" :form/project ""})
+
+(defn task-add [db _]
+  (let [{:keys [form/title form/project]} (:task/form db)]
+    (-> db
+        (update :task/list conj (create-new-task title project))
+        (assoc :task/form clean-form))))
 
 (register-handler
  :task/add
@@ -52,3 +64,17 @@
 (register-handler
  :task/remove
  task-remove)
+
+
+(defn toggle-task-done [list-task handler-task]
+  (let [handler-task-id (:task/id handler-task)
+        list-task-id (:task/id list-task)]
+    (if (= handler-task-id list-task-id) (update list-task :task/done? not) list-task)))
+
+(defn toggle-done [db [_ task]]
+  (let [new-task-list (mapv #(toggle-task-done % task) (:task/list db))]
+    (assoc db :task/list new-task-list)))
+
+(register-handler
+ :task/toggle-done
+ toggle-done)

@@ -1432,3 +1432,1262 @@ notifying browser that file changed:  out/mimas/core.js
 [0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
 notifying browser that file changed:  out/mimas/core.js
 [32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.721 seconds.[0m
+sending changed CSS file: resources/public/css/mimas_style.css
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/cljs_deps.js
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 1.011 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.887 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.926 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: ENTER_KEY at line 22 is being replaced at line 24 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs
+WARNING: ENTER_KEY at line 24 is being replaced at line 25 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.843 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: ENTER_KEY at line 22 is being replaced at line 25 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.865 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.855 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.831 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas_devcards.js" failed.
+[0mANALYSIS ERROR: cond requires an even number of forms at line 30 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs on file /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs, line 30, column 5
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.162 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas_devcards.js" failed.
+[0mANALYSIS ERROR: cond requires an even number of forms at line 30 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs on file /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs, line 30, column 5
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.155 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.863 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas_devcards.js" failed.
+[0mANALYSIS ERROR: cond requires an even number of forms at line 30 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs on file /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs, line 30, column 5
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.152 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.82 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.78 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.792 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.854 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.8 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.944 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.838 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.854 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.784 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.core/prinln at line 32 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.961 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.804 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.828 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.855 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.867 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.809 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.797 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.802 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.812 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.794 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/subs.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.857 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas_devcards.js" failed.
+[0mERROR: EOF while reading, starting at line 27 and column 1 on file /home/andre/Project/ClojureScript/mimas/src/mimas/subs.cljs, line 41, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.192 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas_devcards.js" failed.
+[0mERROR: EOF while reading, starting at line 27 and column 1 on file /home/andre/Project/ClojureScript/mimas/src/mimas/subs.cljs, line 41, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.134 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas_devcards.js" failed.
+[0mERROR: EOF while reading, starting at line 27 and column 1 on file /home/andre/Project/ClojureScript/mimas/src/mimas/subs.cljs, line 41, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.133 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas_devcards.js" failed.
+[0mERROR: EOF while reading, starting at line 27 and column 1 on file /home/andre/Project/ClojureScript/mimas/src/mimas/subs.cljs, line 40, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.141 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas_devcards.js" failed.
+[0mERROR: EOF while reading, starting at line 27 and column 1 on file /home/andre/Project/ClojureScript/mimas/src/mimas/subs.cljs, line 40, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.125 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas_devcards.js" failed.
+[0mERROR: EOF while reading, starting at line 30 and column 1 on file /home/andre/Project/ClojureScript/mimas/src/mimas/subs.cljs, line 43, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.712 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas_devcards.js" failed.
+[0mERROR: EOF while reading, starting at line 30 and column 1 on file /home/andre/Project/ClojureScript/mimas/src/mimas/subs.cljs, line 43, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.258 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas_devcards.js" failed.
+[0mERROR: EOF while reading, starting at line 30 and column 1 on file /home/andre/Project/ClojureScript/mimas/src/mimas/subs.cljs, line 44, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.189 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas_devcards.js" failed.
+[0mERROR: EOF while reading, starting at line 30 and column 1 on file /home/andre/Project/ClojureScript/mimas/src/mimas/subs.cljs, line 43, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.192 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas_devcards.js" failed.
+[0mERROR: EOF while reading, starting at line 30 and column 1 on file /home/andre/Project/ClojureScript/mimas/src/mimas/subs.cljs, line 43, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.166 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/subs.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.837 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/cljs_deps.js
+notifying browser that file changed:  out/mimas/subs.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 1.093 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/subs.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 1.08 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.892 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.884 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.874 seconds.[0m
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/cljs_deps.js
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.879 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.core/item at line 44 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.846 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.core/item at line 44 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.802 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.core/e at line 44 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.868 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.709 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.766 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.736 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.74 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.724 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.577 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.68 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var cards.core/task-item at line 138 /home/andre/Project/ClojureScript/mimas/src/cards/core.cljs
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.631 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.613 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.614 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.573 seconds.[0m
+sending changed CSS file: resources/public/css/mimas_style.css
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.643 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.634 seconds.[0m
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.646 seconds.[0m
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.642 seconds.[0m
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.661 seconds.[0m
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.626 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.603 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.6 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.586 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.661 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.772 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas_devcards.js" failed.
+[0mERROR: Map literal must contain an even number of forms on file /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs, line 65, column 39
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.165 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.655 seconds.[0m
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.663 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.677 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.599 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.handlers/task-finish at line 88 /home/andre/Project/ClojureScript/mimas/src/cards/core.cljs
+WARNING: Use of undeclared Var mimas.handlers/task-finish at line 88 /home/andre/Project/ClojureScript/mimas/src/cards/core.cljs
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.725 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.handlers/task-finish at line 88 /home/andre/Project/ClojureScript/mimas/src/cards/core.cljs
+WARNING: Use of undeclared Var mimas.handlers/task-finish at line 88 /home/andre/Project/ClojureScript/mimas/src/cards/core.cljs
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.755 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.handlers/task-finish at line 88 /home/andre/Project/ClojureScript/mimas/src/cards/core.cljs
+WARNING: Use of undeclared Var mimas.handlers/task-finish at line 88 /home/andre/Project/ClojureScript/mimas/src/cards/core.cljs
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.758 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.697 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas_devcards.js" failed.
+[0mERROR: EOF while reading, starting at line 57 and column 1 on file /home/andre/Project/ClojureScript/mimas/src/mimas/handlers.cljs, line 60, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.125 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.705 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.715 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.695 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.695 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.7 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.handlers/task at line 58 src/mimas/handlers.cljs
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.802 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.handlers/task at line 58 src/mimas/handlers.cljs
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.927 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.735 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.709 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.718 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.685 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.836 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.736 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.7 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.629 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.618 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.621 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.618 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.71 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.7 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.handlers/actual-state at line 59 src/mimas/handlers.cljs
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.812 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.626 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.615 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.handlers/actual-state at line 59 src/mimas/handlers.cljs
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.834 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.handlers/actual-state at line 61 src/mimas/handlers.cljs
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.963 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas_devcards.js" failed.
+[0mERROR: EOF while reading, starting at line 57 and column 1 on file /home/andre/Project/ClojureScript/mimas/src/mimas/handlers.cljs, line 69, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.126 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas_devcards.js" failed.
+[0mERROR: EOF while reading, starting at line 57 and column 1 on file /home/andre/Project/ClojureScript/mimas/src/mimas/handlers.cljs, line 69, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.129 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas_devcards.js" failed.
+[0mERROR: EOF while reading, starting at line 57 and column 1 on file /home/andre/Project/ClojureScript/mimas/src/mimas/handlers.cljs, line 69, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.13 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas_devcards.js" failed.
+[0mERROR: EOF while reading, starting at line 57 and column 1 on file /home/andre/Project/ClojureScript/mimas/src/mimas/handlers.cljs, line 70, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.121 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas_devcards.js" failed.
+[0mERROR: EOF while reading, starting at line 57 and column 1 on file /home/andre/Project/ClojureScript/mimas/src/mimas/handlers.cljs, line 71, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.133 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas_devcards.js" failed.
+[0mERROR: EOF while reading, starting at line 57 and column 1 on file /home/andre/Project/ClojureScript/mimas/src/mimas/handlers.cljs, line 70, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.122 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.714 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.708 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.69 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.69 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.685 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.73 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.35 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.686 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.704 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.691 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.handlers/task-finish at line 71 src/mimas/handlers.cljs
+WARNING: Use of undeclared Var mimas.handlers/task-finish at line 90 src/cards/core.cljs
+WARNING: Use of undeclared Var mimas.handlers/task-finish at line 90 src/cards/core.cljs
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.848 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.handlers/task-finish at line 71 src/mimas/handlers.cljs
+WARNING: Use of undeclared Var mimas.handlers/task-finish at line 90 src/cards/core.cljs
+WARNING: Use of undeclared Var mimas.handlers/task-finish at line 90 src/cards/core.cljs
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 1.052 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.handlers/task-finish at line 90 src/cards/core.cljs
+WARNING: Use of undeclared Var mimas.handlers/task-finish at line 90 src/cards/core.cljs
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.883 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.handlers/task-finish at line 90 src/cards/core.cljs
+WARNING: Use of undeclared Var mimas.handlers/task-finish at line 90 src/cards/core.cljs
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.889 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.handlers/task-finish at line 69 src/mimas/handlers.cljs
+WARNING: Use of undeclared Var mimas.handlers/task-finish at line 90 src/cards/core.cljs
+WARNING: Use of undeclared Var mimas.handlers/task-finish at line 90 src/cards/core.cljs
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 1.028 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.handlers/task-finish at line 90 src/cards/core.cljs
+WARNING: Use of undeclared Var mimas.handlers/task-finish at line 90 src/cards/core.cljs
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.903 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.652 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.674 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.715 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.733 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.768 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.933 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.727 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.748 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.766 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.79 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.769 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.774 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.667 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.659 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.66 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/db.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.813 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.645 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/db.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.804 seconds.[0m
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.602 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.615 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var cards.core/task-list at line 161 src/cards/core.cljs
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.678 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.625 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.644 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var cards.core/data at line 160 /home/andre/Project/ClojureScript/mimas/src/cards/core.cljs
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.685 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var cards.core/task-list-data at line 160 /home/andre/Project/ClojureScript/mimas/src/cards/core.cljs
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.675 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.621 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.635 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.625 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.672 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.627 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.616 seconds.[0m
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.694 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/db.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.775 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/db.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.774 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/db.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.828 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/db.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.785 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/db.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.758 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/db.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.806 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/db.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.749 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/db.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.75 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.685 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.697 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.706 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.635 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.632 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.646 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.753 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.core/item-list at line 86 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.91 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.core/item-list at line 85 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.922 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.732 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.725 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.749 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.core/project-title at line 87 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs
+WARNING: Use of undeclared Var mimas.core/project-title at line 87 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.819 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.748 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.716 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.659 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.646 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var cards.core/project-item at line 176 src/cards/core.cljs
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.723 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var cards.core/project-item at line 176 src/cards/core.cljs
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.724 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var cards.core/project-item at line 177 src/cards/core.cljs
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.732 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var cards.core/project-item at line 178 src/cards/core.cljs
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.711 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var cards.core/project-item at line 179 src/cards/core.cljs
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.725 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var cards.core/project-item at line 179 src/cards/core.cljs
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.706 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.671 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.657 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.745 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.781 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.73 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.743 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.core/% at line 85 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs
+WARNING: Use of undeclared Var mimas.core/% at line 85 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.852 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.76 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.748 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.76 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.741 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.775 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.757 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var cards.core/project-list at line 185 src/cards/core.cljs
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.825 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.765 seconds.[0m
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.871 seconds.[0m
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.794 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.781 seconds.[0m
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.739 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.744 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.775 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.744 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.762 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.815 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.753 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.49 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.409 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/subs.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.44 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.409 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.408 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.42 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.core/ENTER_KEY at line 26 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs
+WARNING: Use of undeclared Var mimas.core/ESCAPE_KEY at line 27 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.527 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.407 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas.js" failed.
+[0mANALYSIS ERROR: Can't def ns-qualified name at line 35 src/mimas/subs.cljs on file src/mimas/subs.cljs, line 35, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.108 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/subs.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.462 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/subs.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.416 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.core/id at line 32 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs
+WARNING: Use of undeclared Var mimas.core/id at line 33 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs
+WARNING: Use of undeclared Var mimas.core/id at line 32 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs
+WARNING: Use of undeclared Var mimas.core/id at line 33 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.553 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.core/id at line 33 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs
+WARNING: Use of undeclared Var mimas.core/id at line 33 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.511 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.391 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.726 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.731 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.666 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.635 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.612 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.641 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.65 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas_devcards.js" failed.
+[0mERROR: EOF while reading, starting at line 26 and column 1 on file /home/andre/Project/ClojureScript/mimas/src/cards/core.cljs, line 187, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.137 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.659 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var cards.core/PersistentList at line 39 src/cards/core.cljs
+WARNING: Use of undeclared Var cards.core/PersistentList at line 39 src/cards/core.cljs
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.755 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var cards.core/Persistent at line 39 src/cards/core.cljs
+WARNING: Use of undeclared Var cards.core/Persistent at line 39 src/cards/core.cljs
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.864 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.654 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.652 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.64 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.db/DropdownItem at line 21 src/mimas/db.cljs
+notifying browser that file changed:  out/mimas/db.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.867 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/db.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.845 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/db.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.885 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var schema.core/Vector at line 23 src/mimas/db.cljs
+notifying browser that file changed:  out/mimas/db.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.944 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var schema.core/Vec at line 23 src/mimas/db.cljs
+notifying browser that file changed:  out/mimas/db.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 1.101 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/db.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.873 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/db.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.883 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.db/DropdownItem at line 29 src/mimas/db.cljs
+notifying browser that file changed:  out/mimas/db.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.964 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.db/DropdownItem at line 29 src/mimas/db.cljs
+notifying browser that file changed:  out/mimas/db.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 1.146 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.db/DropdownItem at line 21 src/mimas/db.cljs
+WARNING: Use of undeclared Var mimas.db/DropdownItem at line 29 src/mimas/db.cljs
+notifying browser that file changed:  out/mimas/db.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 1.172 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.db/DropdownItem at line 21 src/mimas/db.cljs
+notifying browser that file changed:  out/mimas/db.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 1.137 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/db.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.943 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/db.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.866 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.867 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas_devcards.js" failed.
+[0mERROR: Unmatched delimiter ] on file /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs, line 31, column 30
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.125 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas_devcards.js" failed.
+[0mERROR: Unmatched delimiter ] on file /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs, line 30, column 49
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.121 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas_devcards.js" failed.
+[0mERROR: Unmatched delimiter ] on file /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs, line 30, column 49
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.126 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.783 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.804 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.804 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.834 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.868 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.839 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.858 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 1.134 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.812 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.845 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.handlers/task at line 22 src/mimas/handlers.cljs
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.984 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.handlers/task at line 22 src/mimas/handlers.cljs
+WARNING: Use of undeclared Var mimas.handlers/task-with-id at line 23 src/mimas/handlers.cljs
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 1.236 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.handlers/task-with-id at line 24 src/mimas/handlers.cljs
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 1.221 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.handlers/task-with-id at line 25 src/mimas/handlers.cljs
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 1.169 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.handlers/task-with-id at line 26 src/mimas/handlers.cljs
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 1.1 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.855 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.896 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.899 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.853 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.handlers/form-v at line 29 src/mimas/handlers.cljs
+WARNING: Use of undeclared Var mimas.handlers/form-v at line 30 src/mimas/handlers.cljs
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 1.001 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas_devcards.js" failed.
+[0mERROR: Unmatched delimiter ) on file /home/andre/Project/ClojureScript/mimas/src/mimas/handlers.cljs, line 28, column 38
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.121 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas_devcards.js" failed.
+[0mERROR: Unmatched delimiter ) on file /home/andre/Project/ClojureScript/mimas/src/mimas/handlers.cljs, line 28, column 66
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.119 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.handlers/ttitle at line 28 src/mimas/handlers.cljs
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.949 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.86 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.863 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.core/printtln at line 34 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.512 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.41 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.403 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.401 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.404 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.412 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas.js" failed.
+[0mANALYSIS ERROR: Referred var mimas.core/dropdown does not exist on file null, line null, column null
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.179 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas.js" failed.
+[0mANALYSIS ERROR: Referred var mimas.core/dropdown does not exist on file null, line null, column null
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.112 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+WARNING: Use of undeclared Var cards.core/dropdown-subs at line 115 src/cards/core.cljs
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.383 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/cards/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.316 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.43 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.402 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.426 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.402 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.428 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.402 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.core/data at line 15 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.486 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.382 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.38 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.385 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.core/project at line 25 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs
+WARNING: Use of undeclared Var mimas.core/item-list at line 27 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.417 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.387 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.38 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.387 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.38 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.398 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.core/project at line 27 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.487 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.core/project at line 27 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.52 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.399 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.373 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.375 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.394 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.393 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.372 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.382 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.374 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.394 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.401 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.429 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.416 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.416 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.434 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/subs.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.39 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/subs.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.405 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/subs.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.405 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/subs.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.401 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/subs.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.403 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.387 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.373 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.386 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.38 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.384 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.core/incompleted-tasks at line 73 /home/andre/Project/ClojureScript/mimas/src/mimas/core.cljs
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.486 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.4 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.383 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/subs.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.406 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/subs.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.39 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/subs.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.431 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/subs.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.433 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/subs.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.401 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/subs.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.419 seconds.[0m
