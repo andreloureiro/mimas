@@ -1,4 +1,5 @@
 .dropdown {
+  position: relative;
   display: flex;
   flex-direction: column;
 }
@@ -9,6 +10,10 @@
   box-sizing: border-box;
 }
 .dropdown .dropdown__list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   border: 1px solid #eee;
 }
 .dropdown .dropdown__list .list__item {
@@ -16,8 +21,9 @@
   padding: 4px 10px;
   box-sizing: border-box;
 }
-
-
+.dropdown .dropdown__list .list__item--active {
+  background: #eee;
+}
 .create-task-panel {
   display: flex;
 }

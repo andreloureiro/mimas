@@ -15,23 +15,26 @@
   (swap! local assoc :active item :open? false)
   (dispatch [:form/update-value :form/project item]))
 
+(defn active-dd-item [item-id active-id]
+  (if (= item-id active-id) "list__item--active" ""))
+
 (defn dropdown [item-list]
   (let [local (r/atom {:open? false :active nil})]
     (fn [item-list]
       (let [{:keys [open? active]} @local]
         [:div.dropdown
          (if-not open?
-           [:div.dropdown__active {:on-click #(swap! local assoc :open? true)} (or (:item/label active) "none")]
+           [:div.dropdown__active {:on-click #(swap! local assoc :open? true)} (or (:item/label active) "None")]
            [:div.dropdown__list
             (for [{:keys [item/id item/label] :as item} item-list]
-              [:div.list__item {:key id :on-click #(select-dd-item local item)} label])])]))))
+              [:div.list__item {:className (active-dd-item id (:item/id active)) :key id :on-click #(select-dd-item local item)} label])])]))))
 
 
 
 (defn task-form [data item-list]
   [:div.create-task-panel
    [:div.create-task-panel__input-container
-    [:input.input-container__input {:type "text" :on-change #(dispatch [:form/update-value :form/title (.. % -target -value)])}]]
+    [:input.input-container__input {:type "text" :placeholder "Task title" :on-change #(dispatch [:form/update-value :form/title (.. % -target -value)])}]]
    [:div.create-task-panel__dropdown-container
     [dropdown item-list]]
    [:div.create-task-panel__submit-container

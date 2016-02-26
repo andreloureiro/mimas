@@ -37,3 +37,6 @@
    {:form/title ""
     :form/project ""}
    :task/editing nil})
+
+(defn valid? [db]
+  (s/validate State db))

@@ -25,4 +25,30 @@
  task-add)
 
 
-(defn task-edit [db [_ task]])
+(defn task-edit [db [_ task]]
+  (assoc db :task/editing task))
+
+(register-handler
+ :task/edit
+ task-edit)
+
+
+(defn task-update [db _]
+  (let [{:keys [task/editing]} db]
+    (-> db
+        (update :task/list merge editing)
+        (assoc :task/editing nil))))
+
+(register-handler
+ :task/update
+ task-update)
+
+
+(defn task-remove [db [_ id]]
+  (let [new-list (remove #(= id (:task/id %)) (:task/list db))]
+    (-> db
+        (assoc :task/list new-list))))
+
+(register-handler
+ :task/remove
+ task-remove)

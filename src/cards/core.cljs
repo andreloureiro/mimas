@@ -18,6 +18,11 @@
 
 ;; --- Subscriptions ---
 
+(defcard subscription-header
+  (str "## Subscriptions")
+  {}
+  {:heading false})
+
 (deftest subscriptions
   "Tests for re-frame subscriptions"
   (let [db (r/atom {:a :ok})
@@ -40,21 +45,44 @@
     (is (= (type @(subscribe [:task/form])) PersistentArrayMap) "Task form is a Map")))
 
 
+(def state-mock
+  {:app/title ""
+   :dropdown/list []
+   :task/list []
+   :task/form
+   {:form/title ""
+    :form/project ""}
+   :task/editing nil})
+
 (def task-mock {:task/id 0 :task/title "task" :task/project "project"})
+
+(defcard subscription-header
+  (str "## Handlers ")
+  {}
+  {:heading false})
 
 (deftest handlers
   "Tests form re-frame handlers"
   (testing "form update value"
-    (let [form-mock {:task/form {:form/title "" :form/project ""}}
-          new-form (h/form-update-value form-mock [nil :form/title "andre"])]
-      (is (= new-form (assoc-in form-mock [:task/form :form/title] "andre")))))
+    (let [new-form (h/form-update-value state-mock [nil :form/title "andre"])]
+      (is (= new-form (assoc-in state-mock [:task/form :form/title] "andre")))))
 
   (testing "add task"
-    (let [task-list-mock {:task/list []}
-          new-task-list (h/task-add task-list-mock [nil task-mock])]
-      (is (= new-task-list (update task-list-mock :task/list conj task-mock)))))
+    (let [new-task-list (h/task-add state-mock [nil task-mock])]
+      (is (= new-task-list (update state-mock :task/list conj task-mock)))))
 
-  (testing "edit task"))
+  (testing "edit task"
+    (let [new-edit-task (h/task-edit state-mock [nil task-mock])]
+      (is (= new-edit-task (assoc state-mock :task/editing task-mock)))))
+
+  (testing "update task"
+    (let [edit-task (assoc state-mock :task/editing task-mock)
+          new-task-list (h/task-update edit-task nil)]
+      (is (= new-task-list (update state-mock :task/list conj task-mock)))))
+
+  (testing "remove task"
+    (let [new-task-list (update state-mock :task/list conj task-mock)]
+      (is (= state-mock (h/task-remove new-task-list [nil (:task/id task-mock)]))))))
 
 
 
