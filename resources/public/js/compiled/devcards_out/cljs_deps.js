@@ -31,6 +31,7 @@ goog.addDependency("../cljs/reader.js", ['cljs.reader'], ['goog.string', 'cljs.c
 goog.addDependency("../figwheel/client/socket.js", ['figwheel.client.socket'], ['cljs.core', 'figwheel.client.utils', 'cljs.reader']);
 goog.addDependency("../figwheel/client/heads_up.js", ['figwheel.client.heads_up'], ['goog.string', 'cljs.core', 'cljs.core.async', 'figwheel.client.socket', 'clojure.string']);
 goog.addDependency("../figwheel/client.js", ['figwheel.client'], ['goog.userAgent.product', 'goog.Uri', 'cljs.core', 'cljs.core.async', 'figwheel.client.file_reloading', 'figwheel.client.utils', 'cljs.repl', 'figwheel.client.heads_up', 'figwheel.client.socket', 'clojure.string']);
+goog.addDependency("../mimas/components/util.js", ['mimas.components.util'], ['cljs.core']);
 goog.addDependency("../reagent/interop.js", ['reagent.interop'], ['cljs.core']);
 goog.addDependency("../reagent/debug.js", ['reagent.debug'], ['cljs.core']);
 goog.addDependency("../reagent/impl/util.js", ['reagent.impl.util'], ['reagent.interop', 'cljs.core', 'cljsjs.react', 'reagent.debug', 'clojure.string']);
@@ -49,6 +50,7 @@ goog.addDependency("../schema/spec/variant.js", ['schema.spec.variant'], ['cljs.
 goog.addDependency("../schema/spec/leaf.js", ['schema.spec.leaf'], ['cljs.core', 'schema.spec.core']);
 goog.addDependency("../schema/core.js", ['schema.core'], ['schema.spec.collection', 'cljs.core', 'schema.spec.core', 'schema.spec.variant', 'schema.spec.leaf', 'clojure.string', 'schema.utils']);
 goog.addDependency("../mimas/db.js", ['mimas.db'], ['schema.core', 'reagent.core', 'cljs.core']);
+goog.addDependency("../mimas/util.js", ['mimas.util'], ['cljs.core']);
 goog.addDependency("../re_frame/utils.js", ['re_frame.utils'], ['cljs.core', 'clojure.set']);
 goog.addDependency("../re_frame/db.js", ['re_frame.db'], ['reagent.core', 'cljs.core']);
 goog.addDependency("../re_frame/handlers.js", ['re_frame.handlers'], ['cljs.core', 're_frame.utils', 're_frame.db']);
@@ -58,8 +60,18 @@ goog.addDependency("../re_frame/undo.js", ['re_frame.undo'], ['reagent.core', 'c
 goog.addDependency("../clojure/data.js", ['clojure.data'], ['cljs.core', 'clojure.set']);
 goog.addDependency("../re_frame/middleware.js", ['re_frame.middleware'], ['reagent.ratom', 'cljs.core', 're_frame.undo', 're_frame.utils', 'clojure.data']);
 goog.addDependency("../re_frame/core.js", ['re_frame.core'], ['cljs.core', 're_frame.router', 're_frame.utils', 're_frame.handlers', 're_frame.subs', 're_frame.middleware']);
-goog.addDependency("../mimas/subs.js", ['mimas.subs'], ['cljs.core', 'mimas.db', 're_frame.core']);
-goog.addDependency("../mimas/handlers.js", ['mimas.handlers'], ['cljs.core', 'mimas.db', 're_frame.core']);
-goog.addDependency("../mimas/core.js", ['mimas.core'], ['goog.dom', 'reagent.core', 'cljs.core', 'mimas.subs', 'mimas.handlers', 're_frame.core']);
-goog.addDependency("../cards/core.js", ['cards.core'], ['mimas.core', 'schema.core', 'reagent.core', 'cljs.core', 'mimas.db', 'mimas.subs', 'cljs.test', 'mimas.handlers', 're_frame.core']);
+goog.addDependency("../mimas/subs.js", ['mimas.subs'], ['cljs.core', 'mimas.db', 'mimas.util', 're_frame.core']);
+goog.addDependency("../mimas/projects/subs.js", ['mimas.projects.subs'], ['cljs.core', 're_frame.core']);
+goog.addDependency("../mimas/handlers.js", ['mimas.handlers'], ['cljs.core', 'mimas.db', 'cljs.reader', 're_frame.core']);
+goog.addDependency("../mimas/projects/handlers.js", ['mimas.projects.handlers'], ['cljs.core', 'mimas.db', 'mimas.handlers', 'cljs.reader', 're_frame.core']);
+goog.addDependency("../mimas/projects/ui.js", ['mimas.projects.ui'], ['mimas.components.util', 'mimas.projects.subs', 'reagent.core', 'cljs.core', 're_frame.core', 'mimas.projects.handlers']);
+goog.addDependency("../mimas/tasks/subs.js", ['mimas.tasks.subs'], ['cljs.core', 'mimas.db', 'mimas.util', 're_frame.core']);
+goog.addDependency("../mimas/tasks/ui.js", ['mimas.tasks.ui'], ['mimas.components.util', 'mimas.tasks.subs', 'reagent.core', 'cljs.core', 're_frame.core']);
+goog.addDependency("../mimas/core.js", ['mimas.core'], ['mimas.components.util', 'goog.dom', 'reagent.core', 'cljs.core', 'mimas.subs', 'mimas.projects.ui', 'mimas.tasks.ui', 'mimas.handlers', 're_frame.core', 'mimas.projects.handlers']);
+goog.addDependency("../cards/projects/handlers.js", ['cards.projects.handlers'], ['schema.core', 'reagent.core', 'cljs.core', 'mimas.db', 'mimas.subs', 'cljs.test', 're_frame.core', 'mimas.projects.handlers']);
+goog.addDependency("../cards/tasks/ui.js", ['cards.tasks.ui'], ['mimas.tasks.subs', 'reagent.core', 'cljs.core', 'cljs.test', 'mimas.tasks.ui', 'cards.projects.handlers', 're_frame.core']);
+goog.addDependency("../cards/projects/ui.js", ['cards.projects.ui'], ['reagent.core', 'cljs.core', 'cljs.test', 'mimas.projects.ui', 'cards.projects.handlers', 're_frame.core', 'mimas.projects.handlers']);
+goog.addDependency("../cards/projects/subs.js", ['cards.projects.subs'], ['cljs.core', 're_frame.core']);
+goog.addDependency("../cards/core.js", ['cards.core'], ['mimas.core', 'schema.core', 'cards.tasks.ui', 'reagent.core', 'cljs.core', 'mimas.db', 'mimas.subs', 'cljs.test', 'cards.projects.ui', 'mimas.handlers', 'cards.projects.subs', 'mimas.util', 'cards.projects.handlers', 're_frame.core']);
 goog.addDependency("../figwheel/connect.js", ['figwheel.connect'], ['devcards.core', 'cljs.core', 'figwheel.client', 'figwheel.client.utils', 'cards.core']);
+goog.addDependency("../cards/projects_handlers.js", ['cards.projects_handlers'], ['cljs.core']);

@@ -1,7 +1,24 @@
 * {
   color: #444
 }
-
+html, body {
+  height: 100%;
+  margin: 0;
+}
+#app {
+  min-height: 100%;
+}
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+.title {
+  padding: 1em;
+}
+.title .title__text {
+  margin: 0;
+  font-size: 2em;
+  font-weight: 400;
+}
 .dropdown {
   position: relative;
   display: flex;
@@ -64,12 +81,8 @@
 }
 .task-item {
   display: flex;
-  margin-bottom: 1em;
   align-items: center;
-  border: 1px solid #eee;
-}
-.task-item.task-item--active {
-  box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+  background: white;
 }
 .task-item.task-item--done {}
 .task-item .task-item__first-column {
@@ -86,6 +99,9 @@
 }
 .task-item .task-item__title {
   margin: 0;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 .task-item.task-item--done .task-item__title {
   color: #ccc;

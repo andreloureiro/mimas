@@ -1,12 +1,28 @@
 (ns mimas.handlers
-  (:require [mimas.db :refer [state]]
-            [re-frame.core :refer [register-handler]]))
+  (:require [mimas.db :refer [initial-state]]
+            [re-frame.core :refer [register-handler debug]]
+            [cljs.reader :refer [read-string]]))
+
+
+(defn edn->ls! [edn]
+  (.setItem js/localStorage "mimas" (str edn)))
+
+(defn ls->edn! []
+  (let [ls-data (.getItem js/localStorage "mimas")]
+    (if (string? ls-data) (read-string ls-data) {})))
+
+(defn persist-mw [handler]
+  (fn [db v]
+    (let [state (handler db v)]
+      (edn->ls! state)
+      state)))
 
 
 (register-handler
  :initialize
- (fn [db _]
-   (merge db state)))
+ (fn [_ _]
+   (let [ls-data (ls->edn!)]
+     (merge initial-state ls-data))))
 
 
 (defn form-update-value [db [_ k v]]
@@ -14,21 +30,25 @@
 
 (register-handler
  :form/update-value
+ [debug]
  form-update-value)
 
 
 (defn create-new-task [title project]
+  (println title project)
   {:task/id (rand-int 100) ;; TODO: implements UUID
    :task/title title
-   :task/project project
+   :task/project (cljs.reader/read-string project)
    :task/done? false})
 
-(defn task-add [db _]
-  (let [{:keys [form/title form/project]} (:task/form db)]
-    (update db :task/list conj (create-new-task title project))))
+(defn task-add [db [_ form]]
+  (let [{:keys [title project]} form]
+    (-> db
+        (update :task/list conj (create-new-task title project)))))
 
 (register-handler
  :task/add
+ [debug persist-mw]
  task-add)
 
 
@@ -40,14 +60,21 @@
  task-edit)
 
 
-(defn task-update [db _]
-  (let [{:keys [task/editing]} db]
-    (-> db
-        (update :task/list merge editing)
-        (assoc :task/editing nil))))
+(defn update-task [new]
+  (fn [old]
+    (if (= (:task/id old) (:task/id new))
+      (merge old new)
+      old)))
+
+(defn task-update [db [_ task]]
+  (let [task-list (:task/list db)
+        _ (println task-list)
+        new-task-list (into [] (map (update-task task) task-list))]
+    (assoc db :task/list new-task-list)))
 
 (register-handler
  :task/update
+ [persist-mw]
  task-update)
 
 
@@ -58,6 +85,7 @@
 
 (register-handler
  :task/remove
+ [persist-mw]
  task-remove)
 
 
