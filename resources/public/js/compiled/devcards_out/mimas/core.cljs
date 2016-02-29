@@ -18,7 +18,6 @@
 
 (defn mimas []
   (let [title-text (subscribe [:app/title])
-        tasks (subscribe [:task/list])
         completed-tasks (subscribe [:task/total-completed])
         incompleted-tasks (subscribe [:task/total-incompleted])]
     (fn []
@@ -28,8 +27,8 @@
           [title @title-text]
           [project-list]]
          [:div {:style {:flex 3}}
-          ;; [task-form]
-          [task-list @tasks]]]))))
+          [task-form]
+          [task-list]]]))))
 
 (defn init []
   (dispatch-sync [:initialize])

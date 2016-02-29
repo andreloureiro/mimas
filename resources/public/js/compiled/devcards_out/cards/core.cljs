@@ -76,26 +76,28 @@
   ;;   (let [new-task-list (h/task-add state-mock [nil task-mock])]
   ;;     (is (= new-task-list (update state-mock :task/list conj task-mock)))))
 
-  (testing "edit task"
-    (let [new-edit-task (h/task-edit state-mock [nil task-mock])]
-      (is (= new-edit-task (assoc state-mock :task/editing task-mock)))))
+  ;; (testing "edit task"
+  ;;   (let [new-edit-task (h/task-edit state-mock [nil task-mock])]
+  ;;     (is (= new-edit-task (assoc state-mock :task/editing task-mock)))))
 
-  (testing "update task"
-    (let [new-task (assoc task-mock :task/id 1 :task/title "another task")
-          updated-task (assoc new-task :task/title "updated task")
-          task-list (update state-mock :task/list conj task-mock new-task)
-          updated-task-list (h/task-update task-list [nil updated-task])
-          expected-result (update state-mock :task/list conj task-mock updated-task)]
-      (is (= updated-task-list expected-result))))
+  ;; (testing "update task"
+  ;;   (let [new-task (assoc task-mock :task/id 1 :task/title "another task")
+  ;;         updated-task (assoc new-task :task/title "updated task")
+  ;;         task-list (update state-mock :task/list conj task-mock new-task)
+  ;;         updated-task-list (h/task-update task-list [nil updated-task])
+  ;;         expected-result (update state-mock :task/list conj task-mock updated-task)]
+  ;;     (is (= updated-task-list expected-result))))
 
-  (testing "remove task"
-    (let [new-task-list (update state-mock :task/list conj task-mock)]
-      (is (= state-mock (h/task-remove new-task-list [nil (:task/id task-mock)])))))
+  ;; (testing "remove task"
+  ;;   (let [new-task-list (update state-mock :task/list conj task-mock)]
+  ;;     (is (= state-mock (h/task-remove new-task-list [nil (:task/id task-mock)])))))
 
-  (testing "finish task"
-    (let [state-before-task-finish (update state-mock :task/list conj task-mock)
-          state-after-task-finish (update state-mock :task/list conj (assoc task-mock :task/done? true))]
-      (is (= state-after-task-finish (h/toggle-done state-before-task-finish [nil task-mock]))))))
+  ;; (testing "finish task"
+  ;;   (let [state-before-task-finish (update state-mock :task/list conj task-mock)
+  ;;         state-after-task-finish (update state-mock :task/list conj (assoc task-mock :task/done? true))]
+  ;;     (is (= state-after-task-finish (h/toggle-done state-before-task-finish [nil task-mock])))))
+
+  )
 
 
 

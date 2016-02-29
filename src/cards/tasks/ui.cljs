@@ -22,12 +22,12 @@
 
 (defcard-rg task-list
   (fn [data _]
-    [task-list @data])
+    [task-list])
   (subscribe [:task/list])
   {:inspect-data true})
 
 (defcard-rg empty-task-list
   (fn [data _]
-    [task-list @data])
+    [task-list])
   []
   {:inspect-data true})

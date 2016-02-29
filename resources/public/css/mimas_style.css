@@ -92,7 +92,9 @@ body {
   flex: 1;
 }
 .task-item .task-item__third-column {
+  display: flex;
   padding: 1em;
+  height: 20px;
 }
 .task-item .task-item__checkbox-done {
   display: block;
@@ -134,4 +136,12 @@ body {
   margin-left: 10px;
   color: #bbb;
   font-size: 12px;
+}
+.icon {
+  padding: .2em;
+  margin: .2em;
+  color: #444;
+  border-radius: 50%;
+  box-sizing: border-box;
+  cursor: "pointer";
 }

@@ -6,4 +6,4 @@ goog.require('mimas.db');
 goog.require('mimas.util');
 re_frame.core.register_sub.call(null,new cljs.core.Keyword("app","title","app/title",636408784),mimas.util.simple_sub);
 
-//# sourceMappingURL=subs.js.map?rel=1456712359649
+//# sourceMappingURL=subs.js.map?rel=1456757480835

@@ -15,7 +15,7 @@
       (let [projects (subscribe [:project/list])
             {:keys [adding? project-title]} @local]
         [:div
-         [:small "Projects" [icon "add" #(swap! local assoc :adding? true)]]
+         [:small "Projects" [icon :small "add" #(swap! local assoc :adding? true)]]
          (when adding?
            [:div
             [:input {:type "text" :placeholder "New project" :value project-title :on-input #(swap! local assoc :project-title (.. % -target -value))}]
