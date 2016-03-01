@@ -13,14 +13,14 @@
             item-list (subscribe [:project/list])]
         [:div.create-task-panel
          [:form.create-task-panel__input-container
-          [:input.input-container__input
+          [:input.text-field
            {:type "text"
             :value (:title @local)
             :placeholder "Task title"
             :on-input #(swap! local assoc :title (.. % -target -value))}]]
          [:div.create-task-panel__dropdown-container
           [:div.dropdown
-           [:select.dropdown__list
+           [:select.select-field
             {:value (:project @local)
              :on-change #(swap! local assoc :project (.. % -target -value))}
             (for [item @item-list]

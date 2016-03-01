@@ -14,11 +14,13 @@
     (fn []
       (let [projects (subscribe [:project/list])
             {:keys [adding? project-title]} @local]
-        [:div
-         [:small "Projects" [icon :small "add" #(swap! local assoc :adding? true)]]
+        [:div.project-list
+         [:p.project-list__title "Projects" [icon :small "add" #(swap! local assoc :adding? true)]]
          (when adding?
-           [:div
-            [:input {:type "text" :placeholder "New project" :value project-title :on-input #(swap! local assoc :project-title (.. % -target -value))}]
-            [:button {:on-click #(dispatch [:project/add project-title])} "save"]])
+           [:div.project-form
+            [:div.project-form__input-container
+             [:input.text-field.project-form__text-field {:type "text" :placeholder "New project" :value project-title :on-input #(swap! local assoc :project-title (.. % -target -value))}]]
+            [:div.project-form__btn-container
+             [:button.btn.project-form__btn {:on-click #(dispatch [:project/add project-title])} "save"]]])
          [:ul.project-list
           (map project-item @projects)]]))))

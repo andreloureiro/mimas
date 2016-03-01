@@ -15,36 +15,39 @@
  form-update-value)
 
 
-(defn create-new-task [title project]
+(defn task [title project]
   (println title project)
   {:task/id (rand-int 100) ;; TODO: implements UUID
    :task/title title
    :task/project (str->edn project)
    :task/done? false})
 
-(defn task-add [db [_ form]]
+(defn add-task [db [_ form]]
   (let [{:keys [title project]} form]
     (-> db
-        (update :task/list conj (create-new-task title project)))))
+        (update :task/list conj (task title project)))))
 
 (register-handler
  :task/add
  [debug persist-mw]
- task-add)
+ add-task)
 
 
-(defn task-edit [db [_ task]]
+(defn edit-task [db [_ task]]
   (assoc db :task/editing task))
 
 (register-handler
  :task/edit
- task-edit)
+ edit-task)
 
+
+(defn updated-task [task]
+  (assoc task :task/project (read-string (get task :task/project))))
 
 (defn update-task [new]
   (fn [old]
     (if (= (:task/id old) (:task/id new))
-      (merge old new)
+      (merge old (updated-task new))
       old)))
 
 (defn task-update [db [_ task]]
@@ -58,7 +61,7 @@
  task-update)
 
 
-(defn task-remove [db [_ id]]
+(defn remove-task [db [_ id]]
   (let [new-list (remove #(= id (:task/id %)) (:task/list db))]
     (-> db
         (assoc :task/list new-list))))
@@ -66,7 +69,7 @@
 (register-handler
  :task/remove
  [persist-mw]
- task-remove)
+ remove-task)
 
 
 (defn toggle-task-done [list-task handler-task]

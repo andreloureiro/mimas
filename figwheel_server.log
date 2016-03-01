@@ -5293,3 +5293,149 @@ notifying browser that file changed:  out/mimas/core.js
 [32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.404 seconds.[0m
 notifying browser that file changed:  out/mimas/core.js
 [32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.678 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas_devcards.js" failed.
+[0mANALYSIS ERROR: Parameter declaration missing at line 44 src/mimas/tasks/handlers.cljs on file src/mimas/tasks/handlers.cljs, line 44, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.265 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+WARNING: Use of undeclared Var mimas.tasks.handlers/create-new-task at line 28 src/mimas/tasks/handlers.cljs
+[31mCompiling "resources/public/js/compiled/mimas_devcards.js" failed.
+[0mANALYSIS ERROR: Parameter declaration missing at line 44 src/mimas/tasks/handlers.cljs on file src/mimas/tasks/handlers.cljs, line 44, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.141 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/mimas_devcards.js" failed.
+[0mANALYSIS ERROR: Parameter declaration missing at line 44 src/mimas/tasks/handlers.cljs on file src/mimas/tasks/handlers.cljs, line 44, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.131 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas_devcards.js" from ["src"]...
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/cljs_deps.js
+notifying browser that file changed:  out/mimas/tasks/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas_devcards.js" in 0.796 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/mimas/tasks/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.628 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/tasks/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.508 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/tasks/handlers.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.556 seconds.[0m
+sending changed CSS file: resources/public/css/mimas_style.css
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/projects/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.424 seconds.[0m
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/projects/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.643 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/projects/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.411 seconds.[0m
+sending changed CSS file: resources/public/css/mimas_style.css
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/projects/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.376 seconds.[0m
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/projects/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.412 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/projects/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.396 seconds.[0m
+sending changed CSS file: resources/public/css/mimas_style.css
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/projects/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.429 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/projects/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.359 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/projects/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.424 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/projects/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.357 seconds.[0m
+sending changed CSS file: resources/public/css/mimas_style.css
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/projects/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.404 seconds.[0m
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/tasks/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.467 seconds.[0m
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/tasks/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.501 seconds.[0m
+sending changed CSS file: resources/public/css/mimas_style.css
+[0mCompiling "resources/public/js/compiled/mimas.js" from ["src"]...
+notifying browser that file changed:  out/mimas/tasks/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/mimas.js" in 0.447 seconds.[0m
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
+sending changed CSS file: resources/public/css/mimas_style.css
