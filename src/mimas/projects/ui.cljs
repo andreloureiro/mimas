@@ -15,7 +15,9 @@
       (let [projects (subscribe [:project/list])
             {:keys [adding? project-title]} @local]
         [:div.project-list
-         [:p.project-list__title "Projects" [icon :small "add" #(swap! local assoc :adding? true)]]
+         [:div.project-list__title
+          [:p.title__text "Projects"]
+          [icon :small "add" #(swap! local assoc :adding? true)]]
          (when adding?
            [:div.project-form
             [:div.project-form__input-container

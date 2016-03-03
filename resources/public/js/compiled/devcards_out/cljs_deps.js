@@ -68,7 +68,10 @@ goog.addDependency("../mimas/projects/ui.js", ['mimas.projects.ui'], ['mimas.com
 goog.addDependency("../mimas/tasks/handlers.js", ['mimas.tasks.handlers'], ['cljs.core', 'mimas.db', 'mimas.handlers', 'mimas.util', 'cljs.reader', 're_frame.core']);
 goog.addDependency("../mimas/tasks/subs.js", ['mimas.tasks.subs'], ['cljs.core', 'mimas.db', 'mimas.util', 're_frame.core']);
 goog.addDependency("../mimas/tasks/ui.js", ['mimas.tasks.ui'], ['mimas.components.util', 'mimas.tasks.handlers', 'mimas.tasks.subs', 'reagent.core', 'cljs.core', 're_frame.core']);
-goog.addDependency("../mimas/core.js", ['mimas.core'], ['mimas.components.util', 'goog.dom', 'reagent.core', 'cljs.core', 'mimas.subs', 'mimas.projects.ui', 'mimas.tasks.ui', 'mimas.handlers', 're_frame.core', 'mimas.projects.handlers']);
+goog.addDependency("../bidi/bidi.js", ['bidi.bidi'], ['goog.Uri', 'cljs.core', 'clojure.string']);
+goog.addDependency("../accountant/core.js", ['accountant.core'], ['goog.history.Event', 'goog.Uri', 'cljs.core', 'goog.history.EventType', 'cljs.core.async', 'goog.history.Html5History', 'clojure.string', 'goog.events']);
+goog.addDependency("../mimas/routes.js", ['mimas.routes'], ['bidi.bidi', 'cljs.core', 'accountant.core']);
+goog.addDependency("../mimas/core.js", ['mimas.core'], ['mimas.components.util', 'goog.dom', 'reagent.core', 'cljs.core', 'mimas.subs', 'mimas.projects.ui', 'mimas.tasks.ui', 'mimas.handlers', 're_frame.core', 'mimas.routes', 'mimas.projects.handlers']);
 goog.addDependency("../cards/projects/handlers.js", ['cards.projects.handlers'], ['schema.core', 'reagent.core', 'cljs.core', 'mimas.db', 'mimas.subs', 'cljs.test', 're_frame.core', 'mimas.projects.handlers']);
 goog.addDependency("../cards/tasks/ui.js", ['cards.tasks.ui'], ['mimas.tasks.subs', 'reagent.core', 'cljs.core', 'cljs.test', 'mimas.tasks.ui', 'cards.projects.handlers', 're_frame.core']);
 goog.addDependency("../cards/projects/ui.js", ['cards.projects.ui'], ['reagent.core', 'cljs.core', 'cljs.test', 'mimas.projects.ui', 'cards.projects.handlers', 're_frame.core', 'mimas.projects.handlers']);

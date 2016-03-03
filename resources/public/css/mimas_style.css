@@ -5,11 +5,11 @@ html, body {
   height: 100%;
   margin: 0;
 }
-#app {
-  min-height: 100%;
-}
 body {
   font-family: 'Work Sans', sans-serif;
+}
+#app {
+  min-height: 100%;
 }
 .btn {
   display: block;
@@ -58,26 +58,30 @@ body {
   font-size: 2em;
   font-weight: 400;
 }
-.dropdown {
-  position: relative;
+.sidebar {
+  flex: 1;
+  background-color: #424242;
+}
+.user-header {
   display: flex;
-  flex-direction: column;
+  padding: 1.6em;
 }
-.dropdown .dropdown__list {
-  width: 100%;
-  height: 32px;
-  top: 0;
-  left: 0;
-  padding: 4px 10px;
-  box-sizing: border-box;
-  background: white;
-  border: 1px solid #eee;
-  outline: none;
+.user-header .user-header__avatar-container {
+  margin-right: 1em;
 }
-.dropdown .dropdown__list .list__item {
-  width: 100%;
-  padding: 4px 10px;
-  box-sizing: border-box;
+.user-header .user-header__avatar-container .avatar-container__avatar {
+  border-radius: 50%;
+}
+.user-header .user-header__user-info {}
+.user-header .user-header__user-info .user-info__name {
+  margin: 0;
+  color: #fafafa;
+  font-size: 1.5em;
+}
+.user-header .user-header__user-info .user-info__email {
+  margin: 0;
+  color: #757575;
+  font-size: .8em;
 }
 .create-task-panel {
   display: flex;
@@ -157,11 +161,19 @@ body {
 }
 .project-list {
   padding: 0;
-  margin-bottom: 1em;
 }
 .project-list .project-list__title {
-  padding-left: 1em;
-  font-family: 2em;
+  display: flex;
+  padding-left: 1.6em;
+}
+.project-list .project-list__title .title__text {
+  font-size: .7em;
+  color: #757575;
+  text-transform: uppercase;
+}
+.project-list .project-list__title .title__button {
+  font-size: .7em;
+  color: #757575;
 }
 .project-form {
   display: flex;
@@ -176,19 +188,20 @@ body {
 .project-item {
   display: flex;
   align-items: flex-end;
-  padding: .6em 1em;
+  padding: .6em 1.6em;
   list-style-type: none;
 }
 .project-item .project-item__title {
+  flex: 1;
   margin: 0;
-  text-transform: uppercase;
-  font-size: 12px;
+  font-size: 1.5em;
+  color: #fafafa;
 }
 .project-item .project-item__badge {
   margin: 0;
   margin-left: 10px;
-  color: #bbb;
-  font-size: 12px;
+  font-size: 1.4em;
+  color: #bdbdbd;
 }
 .icon {
   padding: .2em;

@@ -17,7 +17,9 @@
                  [figwheel-sidecar "0.5.0-6"]
                  [com.cemerick/piggieback "0.2.2-SNAPSHOT"]
                  [re-frame "0.7.0-alpha-2"]
-                 [prismatic/schema "1.0.5"]]
+                 [prismatic/schema "1.0.5"]
+                 [bidi "2.0.1"]
+                 [venantius/accountant "0.1.7"]]
 
   :plugins [[lein-figwheel "0.5.0-6"]
             [lein-cljsbuild "1.1.2" :exclusions [org.clojure/clojure]]]
