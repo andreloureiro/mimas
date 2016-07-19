@@ -1,4 +1,4 @@
-// Compiled by ClojureScript 1.7.170 {}
+// Compiled by ClojureScript 1.7.228 {}
 goog.provide('re_frame.subs');
 goog.require('cljs.core');
 goog.require('reagent.ratom');
@@ -26,23 +26,23 @@ return cljs.core.swap_BANG_.call(null,re_frame.subs.key__GT_fn,cljs.core.assoc,k
  * Returns a reagent/reaction which observes a part of app-db
  */
 re_frame.subs.subscribe = (function re_frame$subs$subscribe(var_args){
-var args43122 = [];
-var len__36574__auto___43126 = arguments.length;
-var i__36575__auto___43127 = (0);
+var args43215 = [];
+var len__38501__auto___43219 = arguments.length;
+var i__38502__auto___43220 = (0);
 while(true){
-if((i__36575__auto___43127 < len__36574__auto___43126)){
-args43122.push((arguments[i__36575__auto___43127]));
+if((i__38502__auto___43220 < len__38501__auto___43219)){
+args43215.push((arguments[i__38502__auto___43220]));
 
-var G__43128 = (i__36575__auto___43127 + (1));
-i__36575__auto___43127 = G__43128;
+var G__43221 = (i__38502__auto___43220 + (1));
+i__38502__auto___43220 = G__43221;
 continue;
 } else {
 }
 break;
 }
 
-var G__43124 = args43122.length;
-switch (G__43124) {
+var G__43217 = args43215.length;
+switch (G__43217) {
 case 1:
 return re_frame.subs.subscribe.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -52,7 +52,7 @@ return re_frame.subs.subscribe.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(a
 
 break;
 default:
-throw (new Error([cljs.core.str("Invalid arity: "),cljs.core.str(args43122.length)].join('')));
+throw (new Error([cljs.core.str("Invalid arity: "),cljs.core.str(args43215.length)].join('')));
 
 }
 });
@@ -71,10 +71,10 @@ re_frame.subs.subscribe.cljs$core$IFn$_invoke$arity$2 = (function (v,dynv){
 var key_v = re_frame.utils.first_in_vector.call(null,v);
 var handler_fn = cljs.core.get.call(null,cljs.core.deref.call(null,re_frame.subs.key__GT_fn),key_v);
 if(goog.DEBUG){
-var temp__4425__auto___43130 = cljs.core.seq.call(null,cljs.core.remove.call(null,((function (key_v,handler_fn){
-return (function (p1__43121_SHARP_){
-if(!((p1__43121_SHARP_ == null))){
-if((false) || (p1__43121_SHARP_.reagent$ratom$IReactiveAtom$)){
+var temp__4657__auto___43223 = cljs.core.seq.call(null,cljs.core.remove.call(null,((function (key_v,handler_fn){
+return (function (p1__43214_SHARP_){
+if(!((p1__43214_SHARP_ == null))){
+if((false) || (p1__43214_SHARP_.reagent$ratom$IReactiveAtom$)){
 return true;
 } else {
 return false;
@@ -84,9 +84,9 @@ return false;
 }
 });})(key_v,handler_fn))
 ,dynv));
-if(temp__4425__auto___43130){
-var not_reactive_43131 = temp__4425__auto___43130;
-re_frame.utils.warn.call(null,"re-frame: dynv contained parameters that don't implement IReactiveAtom: ",not_reactive_43131);
+if(temp__4657__auto___43223){
+var not_reactive_43224 = temp__4657__auto___43223;
+re_frame.utils.warn.call(null,"re-frame: dynv contained parameters that don't implement IReactiveAtom: ",not_reactive_43224);
 } else {
 }
 } else {
@@ -115,4 +115,4 @@ return cljs.core.deref.call(null,cljs.core.deref.call(null,sub));
 
 re_frame.subs.subscribe.cljs$lang$maxFixedArity = 2;
 
-//# sourceMappingURL=subs.js.map?rel=1456711304766
+//# sourceMappingURL=subs.js.map?rel=1458659763724

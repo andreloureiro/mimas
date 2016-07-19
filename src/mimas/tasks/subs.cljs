@@ -29,3 +29,18 @@
 (register-sub
  :task/total-incompleted
  total-incompleted)
+
+(defn task-by-id [db [id]]
+  (let [tasks (get @db :task/list)]
+    (reaction (first (filter #(= id (:task/id %)) tasks)))))
+
+(register-sub
+ :task/by-id
+ task-by-id)
+
+(defn query [db _]
+  (reaction (get @db :task/query)))
+
+(register-sub
+ :task/query
+ query)

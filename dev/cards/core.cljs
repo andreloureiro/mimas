@@ -14,6 +14,7 @@
             [cards.projects.subs]
             [cards.projects.ui]
             [cards.tasks.ui]
+            [cards.components.common.ui]
             ))
 
 (enable-console-print!)

@@ -1,4 +1,4 @@
-// Compiled by ClojureScript 1.7.170 {}
+// Compiled by ClojureScript 1.7.228 {}
 goog.provide('devcards.util.edn_renderer');
 goog.require('cljs.core');
 goog.require('sablono.core');
@@ -12,7 +12,6 @@ cljs.core.swap_BANG_.call(null,devcards.util.edn_renderer._STAR_key_counter_STAR
 
 return [cljs.core.str("k-"),cljs.core.str(cljs.core.deref.call(null,devcards.util.edn_renderer._STAR_key_counter_STAR_))].join('');
 });
-devcards.util.edn_renderer.html;
 devcards.util.edn_renderer.literal_QMARK_ = (function devcards$util$edn_renderer$literal_QMARK_(x){
 return (!(cljs.core.seq_QMARK_.call(null,x))) && (!(cljs.core.coll_QMARK_.call(null,x)));
 });
@@ -43,10 +42,10 @@ return React.createElement("span",{"key": index},sablono.interpreter.interpret.c
 devcards.util.edn_renderer.join_html = (function devcards$util$edn_renderer$join_html(separator,coll){
 return devcards.util.edn_renderer.interpose_separator.call(null,cljs.core.into.call(null,cljs.core.PersistentVector.EMPTY,cljs.core.map_indexed.call(null,devcards.util.edn_renderer.html_val,coll)),separator,devcards.util.edn_renderer.separate_fn.call(null,coll));
 });
-devcards.util.edn_renderer.html_keyval = (function devcards$util$edn_renderer$html_keyval(p__55411){
-var vec__55413 = p__55411;
-var k = cljs.core.nth.call(null,vec__55413,(0),null);
-var v = cljs.core.nth.call(null,vec__55413,(1),null);
+devcards.util.edn_renderer.html_keyval = (function devcards$util$edn_renderer$html_keyval(p__50937){
+var vec__50939 = p__50937;
+var k = cljs.core.nth.call(null,vec__50939,(0),null);
+var v = cljs.core.nth.call(null,vec__50939,(1),null);
 return React.createElement("span",{"key": cljs.core.prn_str.call(null,k), "className": "keyval"},sablono.interpreter.interpret.call(null,devcards.util.edn_renderer.html.call(null,k)),sablono.interpreter.interpret.call(null,devcards.util.edn_renderer.html.call(null,v)));
 });
 devcards.util.edn_renderer.html_keyvals = (function devcards$util$edn_renderer$html_keyvals(coll){
@@ -101,12 +100,11 @@ return devcards.util.edn_renderer.literal.call(null,"literal",x);
 }
 });
 devcards.util.edn_renderer.html_edn = (function devcards$util$edn_renderer$html_edn(e){
-var _STAR_key_counter_STAR_55416 = devcards.util.edn_renderer._STAR_key_counter_STAR_;
+var _STAR_key_counter_STAR_50941 = devcards.util.edn_renderer._STAR_key_counter_STAR_;
 devcards.util.edn_renderer._STAR_key_counter_STAR_ = cljs.core.atom.call(null,(0));
 
-try{var attrs55417 = devcards.util.edn_renderer.html.call(null,e);
-return cljs.core.apply.call(null,React.createElement,"div",((cljs.core.map_QMARK_.call(null,attrs55417))?sablono.interpreter.attributes.call(null,sablono.normalize.merge_with_class.call(null,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"class","class",-2030961996),new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, ["com-rigsomelight-devcards-typog",null,"com-rigsomelight-rendered-edn",null], null), null)], null),attrs55417)):{"className": "com-rigsomelight-devcards-typog com-rigsomelight-rendered-edn"}),cljs.core.remove.call(null,cljs.core.nil_QMARK_,((cljs.core.map_QMARK_.call(null,attrs55417))?cljs.core.PersistentVector.EMPTY:new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [sablono.interpreter.interpret.call(null,attrs55417)], null))));
-}finally {devcards.util.edn_renderer._STAR_key_counter_STAR_ = _STAR_key_counter_STAR_55416;
+try{return React.createElement("div",{"key": "devcards-edn-block", "className": "com-rigsomelight-rendered-edn com-rigsomelight-devcards-typog"},sablono.interpreter.interpret.call(null,devcards.util.edn_renderer.html.call(null,e)));
+}finally {devcards.util.edn_renderer._STAR_key_counter_STAR_ = _STAR_key_counter_STAR_50941;
 }});
 
-//# sourceMappingURL=edn_renderer.js.map?rel=1456712366409
+//# sourceMappingURL=edn_renderer.js.map?rel=1459008357634

@@ -2,48 +2,41 @@
   (:require [reagent.core :as r]
             [re-frame.core :refer [subscribe dispatch-sync dispatch]]
             [goog.dom :as gdom]
-            [mimas.routes]
-            [mimas.components.util :as ui-util]
-            [mimas.projects.ui :refer [project-list]]
-            [mimas.tasks.ui :refer [task-form task-list]]
-            [mimas.projects.handlers]
+            [devtools.core :as devtools]
+            [mimas.routes :refer [init-router!]]
+            [mimas.views :refer [task-view tasks-view not-found-view]]
             [mimas.handlers]
-            [mimas.subs]))
+            [mimas.subs]
+            [cljsjs.react-motion]
+            [cljsjs.react]))
+
 
 (enable-console-print!)
+
+(devtools/install!)
 
 (defn title [t]
   [:div.title
    [:h1.title__text t]])
 
-(defn user-header []
-  [:div.user-header
-   [:div.user-header__avatar-container
-    [:img.avatar-container__avatar
-     {:src "https://randomuser.me/api/portraits/med/men/0.jpg" :width 50 :height 50}]]
-   [:div.user-header__user-info
-    [:p.user-info__name "Landon"]
-    [:p.user-info__email "landon.hunter34@gmail.com"]]])
 
-(defn sidebar []
-  [:div.sidebar
-   [user-header]
-   [project-list]])
+(defn current-view []
+  (let [route (subscribe [:app/active-route])]
+    (fn []
+      (let [{:keys [active-route/page active-route/params]} @route]
+        (condp = page
+          :tasks [tasks-view]
+          :task [task-view (:by-id params)]
+          :project [tasks-view]
+          [not-found-view])))))
 
 (defn mimas []
-  (let [title-text (subscribe [:app/title])
-        completed-tasks (subscribe [:task/total-completed])
-        incompleted-tasks (subscribe [:task/total-incompleted])]
-    (fn []
-      (let [height (.-innerHeight js/window)]
-        [:div {:style {:display "flex" :height height}}
-         [sidebar]
-         [:div {:style {:flex 3}}
-          [task-form]
-          [task-list]]]))))
+  (fn []
+    [current-view]))
 
 (defn init []
   (dispatch-sync [:initialize])
+  (init-router!)
   (r/render [mimas] (gdom/getElement "app")))
 
 (init)

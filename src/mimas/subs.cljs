@@ -9,3 +9,10 @@
  :app/title
  simple-sub)
 
+(register-sub
+ :app/user
+ simple-sub)
+
+(register-sub
+ :app/active-route
+ simple-sub)

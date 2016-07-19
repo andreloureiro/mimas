@@ -3,7 +3,9 @@
             [mimas.handlers :refer [persist-mw]]
             [mimas.util :refer [str->edn]]
             [re-frame.core :refer [register-handler debug]]
-            [cljs.reader :refer [read-string]]))
+            [cljs.reader :refer [read-string]]
+            [cljs-time.core :as t]
+            [clojure.string :as string]))
 
 
 (defn form-update-value [db [_ k v]]
@@ -15,17 +17,17 @@
  form-update-value)
 
 
-(defn task [title project]
-  (println title project)
+(defn task [{:keys [title project priority due-date]}]
   {:task/id (rand-int 100) ;; TODO: implements UUID
    :task/title title
    :task/project (str->edn project)
+   :task/priority (or priority "1")
+   :task/due-date (or due-date nil)
    :task/done? false})
 
 (defn add-task [db [_ form]]
-  (let [{:keys [title project]} form]
-    (-> db
-        (update :task/list conj (task title project)))))
+  (-> db
+      (update :task/list conj (task form))))
 
 (register-handler
  :task/add
@@ -42,7 +44,10 @@
 
 
 (defn updated-task [task]
-  (assoc task :task/project (read-string (get task :task/project))))
+  (let [project-id (get task :task/project)]
+    (if (= (type project-id) js/String)
+      (assoc task :task/project (read-string (get task :task/project)))
+      (assoc task :task/project project-id))))
 
 (defn update-task [new]
   (fn [old]
@@ -84,3 +89,15 @@
 (register-handler
  :task/toggle-done
  toggle-done)
+
+
+
+
+(defn query-tasks [db [_ query]]
+  (assoc db :task/query query))
+
+(register-handler
+ :task/search
+ [debug]
+ query-tasks)
+

@@ -1,4 +1,4 @@
-// Compiled by ClojureScript 1.7.170 {}
+// Compiled by ClojureScript 1.7.228 {}
 goog.provide('mimas.handlers');
 goog.require('cljs.core');
 goog.require('mimas.db');
@@ -23,9 +23,17 @@ mimas.handlers.edn__GT_ls_BANG_.call(null,state);
 return state;
 });
 });
-re_frame.core.register_handler.call(null,new cljs.core.Keyword(null,"initialize","initialize",609952913),(function (_,___$1){
+mimas.handlers.listen_keystrikes = (function mimas$handlers$listen_keystrikes(e){
+return console.log(e.keyCode);
+});
+mimas.handlers.add_keypress_listener_BANG_ = (function mimas$handlers$add_keypress_listener_BANG_(){
+return document.addEventListener("keyup",mimas.handlers.listen_keystrikes);
+});
+re_frame.core.register_handler.call(null,new cljs.core.Keyword(null,"initialize","initialize",609952913),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [re_frame.core.debug], null),(function (_,___$1){
 var ls_data = mimas.handlers.ls__GT_edn_BANG_.call(null);
+mimas.handlers.add_keypress_listener_BANG_.call(null);
+
 return cljs.core.merge.call(null,mimas.db.initial_state,ls_data);
 }));
 
-//# sourceMappingURL=handlers.js.map?rel=1456757180393
+//# sourceMappingURL=handlers.js.map?rel=1460247571856

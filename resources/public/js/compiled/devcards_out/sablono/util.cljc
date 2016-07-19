@@ -20,7 +20,9 @@
 (defn camel-case
   "Returns camel case version of the key, e.g. :http-equiv becomes :httpEquiv."
   [k]
-  (if k
+  (if (or (keyword? k)
+          (string? k)
+          (symbol? k))
     (let [[first-word & words] (split (name k) #"-")]
       (if (or (empty? words)
               (= "aria" first-word)
@@ -28,7 +30,8 @@
         k (-> (map capitalize words)
               (conj first-word)
               join
-              keyword)))))
+              keyword)))
+    k))
 
 (defn camel-case-keys
   "Recursively transforms all map keys into camel case."
@@ -59,7 +62,12 @@
 (defn join-classes
   "Join the `classes` with a whitespace."
   [classes]
-  (join " " (sort (flatten (seq classes)))))
+  (->> (map #(cond
+               (string? %) %
+               :else (seq %))
+            classes)
+       (flatten)
+       (join " ")))
 
 (defn wrapped-type?
   "Return true if the element `type` needs to be wrapped."

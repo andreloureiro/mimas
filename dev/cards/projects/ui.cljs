@@ -12,7 +12,8 @@
 (defcard-rg project-item
   (fn [data _]
     [project-item @data])
-  (first @(subscribe [:project/list])))
+  (first @(subscribe [:project/list]))
+  {:inspect-data true})
 
 (defcard-rg project-list
   [project-list]

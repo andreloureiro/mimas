@@ -1,4 +1,4 @@
-// Compiled by ClojureScript 1.7.170 {}
+// Compiled by ClojureScript 1.7.228 {}
 goog.provide('re_frame.undo');
 goog.require('cljs.core');
 goog.require('reagent.core');
@@ -118,19 +118,19 @@ return cljs.core.reset_BANG_.call(null,undos,cljs.core.pop.call(null,u));
  */
 re_frame.undo.undo_n = (function re_frame$undo$undo_n(n){
 while(true){
-if(cljs.core.truth_((function (){var and__35504__auto__ = (n > (0));
-if(and__35504__auto__){
+if(cljs.core.truth_((function (){var and__37431__auto__ = (n > (0));
+if(and__37431__auto__){
 return re_frame.undo.undos_QMARK_.call(null);
 } else {
-return and__35504__auto__;
+return and__37431__auto__;
 }
 })())){
 re_frame.undo.undo.call(null,re_frame.undo.undo_list,re_frame.db.app_db,re_frame.undo.redo_list);
 
 re_frame.undo.undo.call(null,re_frame.undo.undo_explain_list,re_frame.undo.app_explain,re_frame.undo.redo_explain_list);
 
-var G__50938 = (n - (1));
-n = G__50938;
+var G__45288 = (n - (1));
+n = G__45288;
 continue;
 } else {
 return null;
@@ -138,16 +138,16 @@ return null;
 break;
 }
 });
-re_frame.handlers.register_base.call(null,new cljs.core.Keyword(null,"undo","undo",-1818036302),(function re_frame$undo$handler(_,p__50939){
-var vec__50941 = p__50939;
-var ___$1 = cljs.core.nth.call(null,vec__50941,(0),null);
-var n = cljs.core.nth.call(null,vec__50941,(1),null);
+re_frame.handlers.register_base.call(null,new cljs.core.Keyword(null,"undo","undo",-1818036302),(function re_frame$undo$handler(_,p__45289){
+var vec__45291 = p__45289;
+var ___$1 = cljs.core.nth.call(null,vec__45291,(0),null);
+var n = cljs.core.nth.call(null,vec__45291,(1),null);
 if(cljs.core.not.call(null,re_frame.undo.undos_QMARK_.call(null))){
 return re_frame.utils.warn.call(null,"re-frame: you did a (dispatch [:undo]), but there is nothing to undo.");
 } else {
-return re_frame.undo.undo_n.call(null,(function (){var or__35516__auto__ = n;
-if(cljs.core.truth_(or__35516__auto__)){
-return or__35516__auto__;
+return re_frame.undo.undo_n.call(null,(function (){var or__37443__auto__ = n;
+if(cljs.core.truth_(or__37443__auto__)){
+return or__37443__auto__;
 } else {
 return (1);
 }
@@ -168,19 +168,19 @@ return cljs.core.reset_BANG_.call(null,undos,u);
  */
 re_frame.undo.redo_n = (function re_frame$undo$redo_n(n){
 while(true){
-if(cljs.core.truth_((function (){var and__35504__auto__ = (n > (0));
-if(and__35504__auto__){
+if(cljs.core.truth_((function (){var and__37431__auto__ = (n > (0));
+if(and__37431__auto__){
 return re_frame.undo.redos_QMARK_.call(null);
 } else {
-return and__35504__auto__;
+return and__37431__auto__;
 }
 })())){
 re_frame.undo.redo.call(null,re_frame.undo.undo_list,re_frame.db.app_db,re_frame.undo.redo_list);
 
 re_frame.undo.redo.call(null,re_frame.undo.undo_explain_list,re_frame.undo.app_explain,re_frame.undo.redo_explain_list);
 
-var G__50942 = (n - (1));
-n = G__50942;
+var G__45292 = (n - (1));
+n = G__45292;
 continue;
 } else {
 return null;
@@ -188,16 +188,16 @@ return null;
 break;
 }
 });
-re_frame.handlers.register_base.call(null,new cljs.core.Keyword(null,"redo","redo",501190664),(function re_frame$undo$handler(_,p__50943){
-var vec__50945 = p__50943;
-var ___$1 = cljs.core.nth.call(null,vec__50945,(0),null);
-var n = cljs.core.nth.call(null,vec__50945,(1),null);
+re_frame.handlers.register_base.call(null,new cljs.core.Keyword(null,"redo","redo",501190664),(function re_frame$undo$handler(_,p__45293){
+var vec__45295 = p__45293;
+var ___$1 = cljs.core.nth.call(null,vec__45295,(0),null);
+var n = cljs.core.nth.call(null,vec__45295,(1),null);
 if(cljs.core.not.call(null,re_frame.undo.redos_QMARK_.call(null))){
 return re_frame.utils.warn.call(null,"re-frame: you did a (dispatch [:redo]), but there is nothing to redo.");
 } else {
-return re_frame.undo.redo_n.call(null,(function (){var or__35516__auto__ = n;
-if(cljs.core.truth_(or__35516__auto__)){
-return or__35516__auto__;
+return re_frame.undo.redo_n.call(null,(function (){var or__37443__auto__ = n;
+if(cljs.core.truth_(or__37443__auto__)){
+return or__37443__auto__;
 } else {
 return (1);
 }
@@ -212,4 +212,4 @@ return re_frame.undo.clear_redos_BANG_.call(null);
 }
 }));
 
-//# sourceMappingURL=undo.js.map?rel=1456712359453
+//# sourceMappingURL=undo.js.map?rel=1459008345767

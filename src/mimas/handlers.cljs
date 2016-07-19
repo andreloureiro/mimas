@@ -17,11 +17,18 @@
       (edn->ls! state)
       state)))
 
+(defn listen-keystrikes [e]
+  (js/console.log (.-keyCode e)))
+
+(defn add-keypress-listener! []
+  (.addEventListener js/document "keyup" listen-keystrikes))
 
 (register-handler
  :initialize
+ [debug]
  (fn [_ _]
    (let [ls-data (ls->edn!)]
+     (add-keypress-listener!)
      (merge initial-state ls-data))))
 
 
